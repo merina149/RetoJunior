@@ -14,17 +14,8 @@ App para preparar entrevistas de **desarrollo web junior**, con ejercicios reale
 - **Modo entrevista**: reto al azar con cronómetro y sin tutor.
 - **Progreso guardado**: estado de cada reto, tu código, notas, enlace a tu solución y racha de días. Puedes exportarlo e importarlo entre dispositivos.
 
-## Publicarla en GitHub Pages
 
-1. Crea un repositorio nuevo en GitHub (por ejemplo `reto-junior`).
-2. Sube **todo el contenido de esta carpeta** (la carpeta, no el zip): `index.html` tiene que quedar en la raíz del repositorio.
-3. En el repositorio: **Settings → Pages → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**.
-4. En un minuto estará en `https://TU-USUARIO.github.io/reto-junior/`.
 
-## Instalarla en el móvil
-
-- **iPhone (Safari):** abre la URL → botón Compartir → *Añadir a pantalla de inicio*.
-- **Android / tablet (Chrome):** menú ⋮ → *Instalar aplicación*.
 
 Instalada funciona sin conexión. En iPhone es importante instalarla: Safari puede borrar los datos de las webs que no visitas durante varios días.
 
