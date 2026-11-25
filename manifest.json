@@ -1,0 +1,16 @@
+{
+  "name": "Reto Junior",
+  "short_name": "Reto Junior",
+  "description": "Prepara tus entrevistas de desarrollo web junior con ejercicios reales y un tutor.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f4",
+  "theme_color": "#6c4cf1",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

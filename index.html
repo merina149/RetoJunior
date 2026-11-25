@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Reto Junior · Prepara tus entrevistas de desarrollo web</title>
+  <meta name="description" content="Ejercicios reales de entrevistas para programadores junior (HTML, CSS, JavaScript, SQL, Git, React…) con un tutor que te guía paso a paso.">
+
+  <!-- Para que se pueda instalar como app en el móvil -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#6c4cf1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Reto Junior">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <!-- Cabecera fija -->
+  <header class="cabecera">
+    <button id="volver" class="boton-volver" type="button" aria-label="Volver" hidden>‹</button>
+    <h1 id="titulo">Reto Junior</h1>
+    <span id="racha" class="racha">🔥 0</span>
+  </header>
+
+  <!-- Aquí se pintan las pantallas (js/app.js) -->
+  <main id="app" tabindex="-1"></main>
+
+  <!-- Barra de navegación inferior -->
+  <nav class="nav-inferior" aria-label="Principal">
+    <a href="#/" data-nav="inicio"><span aria-hidden="true">🏠</span>Inicio</a>
+    <a href="#/repaso" data-nav="repaso"><span aria-hidden="true">⚡</span>Repaso</a>
+    <a href="#/entrevista" data-nav="entrevista"><span aria-hidden="true">⏱️</span>Entrevista</a>
+    <a href="#/ajustes" data-nav="ajustes"><span aria-hidden="true">⚙️</span>Ajustes</a>
+  </nav>
+
+  <!-- 1. Datos: rutas, ejercicios y tarjetas -->
+  <script src="data/rutas.js"></script>
+  <script src="data/ej-html.js"></script>
+  <script src="data/ej-css.js"></script>
+  <script src="data/ej-js.js"></script>
+  <script src="data/ej-git.js"></script>
+  <script src="data/ej-criterio.js"></script>
+  <script src="data/ej-sql.js"></script>
+  <script src="data/ej-ts-react.js"></script>
+  <script src="data/ej-backend.js"></script>
+  <script src="data/teoria.js"></script>
+
+  <!-- 2. Lógica -->
+  <script src="js/storage.js"></script>
+  <script src="js/runner.js"></script>
+  <script src="js/tutor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
